@@ -4,7 +4,7 @@ const hbs=require('hbs')
 const app=express()
 
 
-const forecastFile=require('../src/utils/forecast')
+// const forecastFile=require('../src/utils/forecast')
 const geocodeFile=require('../src/utils/geocode')
 
 const publicDirPath=path.join(__dirname,"../public")
