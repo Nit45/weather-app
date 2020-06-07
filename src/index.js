@@ -71,6 +71,10 @@ app.get('/products',(req,res)=>{
         products:[]
     })
 })
+app.get("/check",(req,res)=>{
+    res.send('changes are done')
+
+})
 app.get('/help/*',(req,res)=>{
     res.render('404pagenotfound',{
         msg:'404 help page not found'
